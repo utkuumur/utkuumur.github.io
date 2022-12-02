@@ -5,18 +5,18 @@ permalink: /publications/
 author_profile: true
 ---
 
-<h1>Theoretical Computer Science and Optimization</h1>
+<h1>Algorithms and Optimization</h1>
 
 {% for post in site.publications reversed %}
-  {% if post.category == "theory"  %}
+  {% if post.category == "algopt"  %}
     {% include archive-pub.html %}
   {% endif %}
 {% endfor %}
 
-<h1>Natural Language Processing and Economic Research</h1>
+<h1>NLP and Economic Research</h1>
 
 {% for post in site.publications reversed %}
-  {% if post.category == "nlp"  %}
+  {% if post.category == "nlp" or post.category == "nlpecon"  %}
     {% include archive-pub.html %}
   {% endif %}
 {% endfor %}
