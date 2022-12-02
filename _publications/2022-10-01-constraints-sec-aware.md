@@ -20,9 +20,13 @@ security risk minimization (shift minimization) and establish the computational
 complexities of several models in the same. For the NP-hard models, we develop
 memetic algorithms that produce solutions that are within 10% and 7% of the
 optimal in 95% of the instances under 8 and 82 seconds, respectively.'
+working: 1
 date: 2022-10-01
 venue: 'Constraints'
+ref: 'Acikalin UU, Caskurlu B, Subramani K. “Security-Aware Database Migration Planning”'
 ---
+Acikalin UU, Caskurlu B, Subramani K. “Security-Aware Database Migration Planning”
+
 **Abstract:** Database migration is an important problem faced by companies deal-
 ing with big data. Not only is migration a costly procedure, it involves serious
 security risks as well. For some institutions, the primary focus is on reducing the
@@ -39,3 +43,5 @@ security risk minimization (shift minimization) and establish the computational
 complexities of several models in the same. For the NP-hard models, we develop
 memetic algorithms that produce solutions that are within 10% and 7% of the
 optimal in 95% of the instances under 8 and 82 seconds, respectively.
+
+

@@ -28,13 +28,15 @@
     
     <div class="archive__item-content">
 
-      {% if post.citation %}
+      {% if post.ref %}
+        {{ post.ref }}
+      {% elsif post.citation %}
         {{ post.citation }}
       {% elsif post.title %}
         {{ post.title }}
       {% endif %}
 
-      <a style="color: blue; text-decoration: none;" href="{{ base_path }}{{ post.url }}" rel="permalink">Click here for more detail</a>
+      <a style="color: blue; text-decoration: none;" href="{{ base_path }}{{ post.url }}" rel="permalink">+</a>
       <h3></h3>
     </div>
 <!--     
