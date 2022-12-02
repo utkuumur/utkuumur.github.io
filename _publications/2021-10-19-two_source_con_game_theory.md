@@ -1,0 +1,12 @@
+---
+title: "On approximate Nash equilibria of the two-source connection game"
+collection: publications
+category: theory
+status: Accepted in
+permalink: /publication/2021-10-19-two_source_con_game
+excerpt: 'The arbitrary-sharing connection game is prominent in the network formation game literature. An undirected graph with positive edge weights is given, where the weight of an edge is the cost of building it. An edge is built if agents contribute a sufficient amount for its construction. For agent i , the goal is to contribute the least possible amount while assuring that the source node s_i is connected to the terminal node t_i . In this paper, we study the special case of this game in which there are only two source nodes. In this setting, we prove that there exists a 2 -approximate Nash equilibrium that is socially optimal. We also consider the further special case in which there are no auxiliary nodes (i.e., every node is a terminal or source node). In this further special case, we show that there exists a 3/2 -approximate Nash equilibrium that is socially optimal and it is computable in polynomial time.'
+date: 2021-10-19
+venue: 'Turkish Journal of Electrical Engineering and Computer Science'
+citation: '(Accepted) B. Caskurlu, U. U. Acikalin, F. E. Kizilkaya, O. Ekici, &quot;On approximate Nash equilibria of the two-source connection game&quot;. Turkish J Elec Eng &amp; Comp Sci. '
+---
+**Abstract:** The arbitrary-sharing connection game is prominent in the network formation game literature. An undirected graph with positive edge weights is given, where the weight of an edge is the cost of building it. An edge is built if agents contribute a sufficient amount for its construction. For agent i , the goal is to contribute the least possible amount while assuring that the source node s_i is connected to the terminal node t_i . In this paper, we study the special case of this game in which there are only two source nodes. In this setting, we prove that there exists a 2 -approximate Nash equilibrium that is socially optimal. We also consider the further special case in which there are no auxiliary nodes (i.e., every node is a terminal or source node). In this further special case, we show that there exists a 3/2 -approximate Nash equilibrium that is socially optimal and it is computable in polynomial time.
