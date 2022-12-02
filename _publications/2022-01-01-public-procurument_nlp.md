@@ -8,7 +8,7 @@ excerpt: 'A competitive and cost-effective public procurement process is essenti
 date: 2022-01-01
 working: 1
 venue: 'Natural Language Engineering'
-ref: 'Acikalin UU, Gorgun MK, Kutlu M, Tas BKO. “How You Describe Procurement Calls Matters: Predicting Competition and Cost-Effectiveness of European Union Public Procurement Calls Using Their Description”'
+ref: 'Acikalin UU, Gorgun MK, Kutlu M, Tas BKO. “How You Describe Procurement Calls Matters: Predicting Competition and Cost-Effectiveness of European Union Public Procurement Calls Using Their Description” (Submitted to Natural Language Engineering) '
 ---
 Acikalin UU, Gorgun MK, Kutlu M, Tas BKO. “How You Describe Procurement Calls Matters: Predicting Competition and Cost-Effectiveness of European Union Public Procurement Calls Using Their Description”
 

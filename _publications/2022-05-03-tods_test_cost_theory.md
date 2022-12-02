@@ -8,7 +8,7 @@ excerpt: 'Database migration is a ubiquitous need faced by enterprises that gene
 working: 1
 date: 2022-05-03
 venue: 'ACM Transactions on Database Systems (TODS)'
-ref: 'Caskurlu B,  Subramani K, Acikalin UU, Velasquez A, Wojciechowski P. “Models for test cost minimization in database migration'
+ref: 'Caskurlu B,  Subramani K, Acikalin UU, Velasquez A, Wojciechowski P. “Models for test cost minimization in database migration" (Submitted to ACM Transactions on Database Systems (TODS))'
 ---
 Caskurlu B,  Subramani K, Acikalin UU, Velasquez A, Wojciechowski P. “Models for test cost minimization in database migration”
 

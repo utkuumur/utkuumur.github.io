@@ -36,7 +36,9 @@
         {{ post.title }}
       {% endif %}
 
-      <a style="color: blue; text-decoration: none;" href="{{ base_path }}{{ post.url }}" rel="permalink">+</a>
+      {% if post.venue != ''%}
+        <a style="color: blue; text-decoration: none;" href="{{ base_path }}{{ post.url }}" rel="permalink">+</a>
+      {% endif %}
       <h3></h3>
     </div>
 <!--     

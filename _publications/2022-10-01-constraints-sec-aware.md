@@ -2,7 +2,7 @@
 title: "Security-Aware Database Migration Planning"
 collection: publications
 category: algopt
-status: Submitted to
+status: R&R
 permalink: /publication/secawareconstraints
 excerpt: 'Database migration is an important problem faced by companies deal-
 ing with big data. Not only is migration a costly procedure, it involves serious
@@ -23,9 +23,9 @@ optimal in 95% of the instances under 8 and 82 seconds, respectively.'
 working: 1
 date: 2022-10-01
 venue: 'Constraints'
-ref: 'Acikalin UU, Caskurlu B, Subramani K. “Security-Aware Database Migration Planning”'
+ref: 'Acikalin UU, Caskurlu B, Subramani K. “Security-Aware Database Migration Planning” (R&R Constraints)'
 ---
-Acikalin UU, Caskurlu B, Subramani K. “Security-Aware Database Migration Planning”
+Acikalin UU, Caskurlu B, Subramani K. “Security-Aware Database Migration Planning”.
 
 **Abstract:** Database migration is an important problem faced by companies deal-
 ing with big data. Not only is migration a costly procedure, it involves serious
