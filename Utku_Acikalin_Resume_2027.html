@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Utku Umur Acikalin: Cornell CS Ph.D. student in machine learning for molecular discovery. Research resume.">
+<title>Utku Umur Acikalin | Research Resume</title>
+<style>
+:root { --ink:#162c35; --muted:#4e6169; --accent:#17665e; --line:#cbd8d9; --paper:#fff; }
+* { box-sizing:border-box; }
+body { margin:0; background:#edf1f0; color:var(--ink); font-family:Arial,Helvetica,sans-serif; font-size:10.2pt; line-height:1.32; }
+a { color:var(--accent); text-decoration:none; }
+a:hover { text-decoration:underline; }
+a:focus-visible, button:focus-visible { outline:2px solid var(--accent); outline-offset:3px; }
+.toolbar { max-width:8.5in; margin:20px auto 12px; display:flex; align-items:center; justify-content:space-between; gap:12px; padding:0 3px; color:var(--muted); font-size:13px; }
+.toolbar button { border:1px solid var(--accent); color:var(--accent); background:white; font:inherit; padding:8px 15px; border-radius:4px; cursor:pointer; }
+.page { width:8.5in; min-height:11in; margin:0 auto 18px; padding:.55in .65in .50in; background:var(--paper); box-shadow:0 2px 18px #142c3512; display:flex; flex-direction:column; }
+header { border-bottom:1.5px solid var(--accent); padding-bottom:10px; }
+.kicker { color:var(--accent); font-size:9pt; font-weight:700; letter-spacing:.12em; text-transform:uppercase; margin:0 0 5px; }
+h1 { font-size:27pt; letter-spacing:-.025em; line-height:1.05; margin:0 0 8px; }
+.contact { margin:3px 0; font-size:9.1pt; }
+.separator { color:#819094; padding:0 4px; }
+.summary { margin:11px 0 0; }
+h2 { margin:13px 0 6px; padding-bottom:4px; border-bottom:1px solid var(--line); color:var(--accent); font-size:9.4pt; letter-spacing:.12em; text-transform:uppercase; }
+h3 { font-size:11pt; margin:0; }
+p { margin:0; }
+.education-entry { margin:0 0 6px; }
+.row { display:flex; align-items:baseline; justify-content:space-between; gap:12px; }
+.date { color:var(--muted); font-size:9.3pt; white-space:nowrap; font-weight:400; }
+.detail { color:var(--muted); font-size:9.75pt; }
+.research-role { margin-bottom:9px; }
+.project { margin:0 0 9px; break-inside:avoid; }
+.project-meta { color:var(--muted); margin:2px 0 3px; font-size:9.1pt; }
+.outcome { margin:0 0 2px; font-size:9.75pt; }
+.outcome strong { color:var(--accent); }
+ul { margin:3px 0 0; padding-left:17px; }
+li { padding-left:1px; margin:2.5px 0; }
+.continued { display:flex; justify-content:space-between; border-bottom:1.5px solid var(--accent); padding-bottom:9px; font-size:10pt; color:var(--muted); }
+.continued strong { color:var(--ink); }
+.pubs { list-style:none; padding:0; margin:0; }
+.pub { margin:0 0 9px; break-inside:avoid; }
+.pub-title { display:block; font-size:10.3pt; font-weight:700; line-height:1.3; }
+.pub-authors { display:block; margin:2px 0 1px; font-size:9.5pt; }
+.pub-venue { display:block; font-size:9.4pt; color:var(--muted); }
+.pub-note { margin:0 0 9px; font-size:9pt; color:var(--muted); }
+.earlier { margin:2px 0 0; font-size:9.5pt; }
+.skill, .service { margin:0 0 5px; }
+.footer { display:flex; justify-content:space-between; color:var(--muted); font-size:8pt; margin-top:auto; padding-top:14px; }
+@page { size:Letter; margin:.55in .65in .50in; }
+@media print {
+ body { background:white; print-color-adjust:exact; -webkit-print-color-adjust:exact; }
+ .toolbar { display:none; }
+ .page { width:auto; min-height:0; height:auto; display:block; padding:0; margin:0; box-shadow:none; break-after:page; }
+ .page:last-child { break-after:auto; }
+ .footer { margin-top:16px; padding-top:6px; }
+ .pub-title { color:var(--ink); }
+ .project, .pub, .education-entry, .skill, .service { break-inside:avoid; }
+}
+@media screen and (max-width:850px) {
+ .toolbar { margin:14px 16px; }
+ .page { width:calc(100% - 24px); min-height:0; padding:26px 20px; margin:0 12px 16px; }
+ h1 { font-size:25pt; }
+ .row { flex-wrap:wrap; gap:2px 12px; }
+ .contact { line-height:1.7; overflow-wrap:anywhere; }
+ .footer { margin-top:16px; }
+}
+</style>
+</head>
+<body>
+<div class="toolbar"><span>Research resume</span><button type="button" onclick="window.print()">Print / Save PDF</button></div>
+<main>
+<article class="page" aria-label="Resume, page one">
+<header>
+<p class="kicker">Machine learning for molecular discovery</p>
+<h1>Utku Umur Acikalin</h1>
+<p class="contact"><a href="mailto:uuacikalin@gmail.com">uuacikalin@gmail.com</a><span class="separator">|</span><a href="https://utkuumur.github.io/">utkuumur.github.io</a><span class="separator">|</span>Ithaca, NY</p>
+<p class="contact"><a href="https://scholar.google.com/citations?user=acAG2w4AAAAJ&amp;hl=en">Google Scholar</a><span class="separator">|</span><a href="https://github.com/utkuumur">github.com/utkuumur</a><span class="separator">|</span><a href="https://www.linkedin.com/in/uuacikalin">LinkedIn</a></p>
+</header>
+<p class="summary">Fourth-year Cornell CS Ph.D. student advised by Carla P. Gomes. Builds machine learning to identify unknown molecules from tandem mass spectra: neuro-symbolic spectrum prediction, learned search over molecular graphs, and retrieval over 105M structures, with discoveries confirmed by synthesis.</p>
+<section aria-labelledby="education">
+<h2 id="education">Education</h2>
+<div class="education-entry">
+<div class="row"><p><strong>Cornell University</strong> · Ph.D. in Computer Science</p><span class="date">2023 - expected 2028</span></div>
+<p class="detail">Advisor: Carla P. Gomes</p>
+</div>
+<div class="education-entry">
+<div class="row"><p><strong>TOBB University of Economics and Technology</strong></p><span class="date">Ankara, Turkey</span></div>
+<p class="detail">M.S., Computer Engineering, 2019 - 2022 · GPA 4.00/4.00<br>B.S., Computer Engineering, 2015 - 2019 · GPA 3.74/4.00</p>
+</div>
+</section>
+<section aria-labelledby="research">
+<h2 id="research">Research experience</h2>
+<div class="row research-role"><p><strong>Ph.D. Researcher · Cornell University, Gomes Lab</strong> · with the Schroeder Lab (chemistry)</p><span class="date">2023 - present</span></div>
+<div class="project">
+<h3>AIMe &amp; MS²KOSMOS: neuro-symbolic mass spectrometry at database scale</h3>
+<p class="project-meta">Co-first author · bioRxiv 2026, under review at Nature · <a href="https://doi.org/10.64898/2026.08.05.743095">Preprint</a> · <a href="https://www.cs.cornell.edu/gomes/udiscoverit/kosmos/search.html">Public system</a></p>
+<p class="outcome"><strong>Outcome:</strong> synthesis-validated discovery of previously unreported microbiota-dependent polyamines.</p>
+<ul><li>Co-designed and implemented <strong>AIMe</strong>, a neuro-symbolic MS/MS predictor that explains peaks through chemically constrained fragmentation pathways; <strong>0.83 cosine on NIST</strong> vs. 0.74 for the strongest baseline.</li>
+<li>Built CPU/GPU retrieval over <strong>105M structures and 800M+ predicted spectra</strong> (MS²KOSMOS), with interactive queries in a few seconds and a repository-scale search of 7.14M GNPS consensus spectra.</li>
+<li>Co-developed the public web system for spectral search, pathway inspection, and on-demand prediction.</li></ul>
+</div>
+<div class="project">
+<h3>GEMS: structure elucidation as learned search over isomer graphs</h3>
+<p class="project-meta">First author · under review at ICLR 2027 · ICML 2026 workshops: GenBio (spotlight), AI4Physics · <a href="https://openreview.net/forum?id=Ic5qOZ6xur">Workshop paper</a></p>
+<ul><li>Developed a learned search that refines candidates through formula- and valence-preserving bond edits; a policy maps MIST-predicted fingerprints to atoms and bonds and scores all edits in one pass.</li>
+<li>Designed shortest-path supervision, enabling pretraining on PubChem structures alone and fine-tuning on spectrum-predicted fingerprints.</li>
+<li><strong>Hit@1 of 29.6% on NPLIB1 and 30.2% on MassSpecGym</strong> with the target excluded from initialization, above published baselines in comparable settings; higher accuracy than FRIGID on NPLIB1 in ~2.6 min vs. 26 h.</li></ul>
+</div>
+<div class="project">
+<h3>MoRE: Mixture of Reused Experts</h3>
+<p class="project-meta">Co-first author · COLM 2026 · <a href="https://arxiv.org/abs/2609.18176">arXiv</a> · <a href="https://github.com/EricQiu6/MoRE">Code</a></p>
+<ul><li>Co-developed a middle ground between standard MoE and looped (Universal) Transformers: adjacent layers share an expert pool with per-layer routers, giving ~18x more routing choices at no parameter cost.</li>
+<li>Beats a DeepSeek-v3-style MoE and MoEUT at 114M-1.15B parameters with matched parameters and FLOPs.</li></ul>
+</div>
+<div class="project">
+<h3>X²GNN: learning to explore and exploit</h3>
+<p class="project-meta">First author · ICLR 2025 · <a href="https://github.com/utkuumur/X2GNN">Code</a></p>
+<ul><li>Unsupervised GNN solver for MIS, Max Clique, Max&#8209;Cut; trained on one refinement step, it scales with test&#8209;time compute: 1.2% from optimal on large Max Clique graphs (prior neural: &gt;22%), beating Gurobi at similar runtime.</li></ul>
+</div>
+</section>
+<footer class="footer"><span>Utku Umur Acikalin · Research resume</span><span>1 / 2</span></footer>
+</article>
+<article class="page" aria-label="Resume, page two">
+<div class="continued"><strong>Utku Umur Acikalin</strong><span>Machine learning for molecular discovery</span></div>
+<section aria-labelledby="publications">
+<h2 id="publications">Selected publications &amp; preprints</h2>
+<p class="pub-note">* Equal contribution.</p>
+<ol class="pubs"><li class="pub"><a class="pub-title" href="https://doi.org/10.1016/j.jfineco.2026.104306">Intellectual property protection lost and competition: An examination using large language models.</a><span class="pub-authors"><strong>U. U. Acikalin</strong>, T. Caskurlu, G. Hoberg, G. M. Phillips.</span><span class="pub-venue">Journal of Financial Economics 182:104306, 2026.</span></li>
+<li class="pub"><a class="pub-title" href="https://doi.org/10.64898/2026.08.05.743095">Charting the small-molecule universe from mass spectra with neuro-symbolic AI.</a><span class="pub-authors"><strong>U. U. Acikalin*</strong>, D. Feng*, A. M. Ferber*, G. J. Gouveia*, et al.</span><span class="pub-venue">bioRxiv 2026; under review at Nature.</span></li>
+<li class="pub"><span class="pub-title">GEMS: Molecular Structure Elucidation as Learned Search over Isomer Graphs.</span><span class="pub-authors"><strong>U. U. Acikalin</strong>, Y. Wang, G. J. Gouveia, T. Schwertfeger, F. C. Schroeder, C. P. Gomes.</span><span class="pub-venue">Under review at ICLR 2027. Earlier version: <a href="https://openreview.net/forum?id=Ic5qOZ6xur">ICML 2026 workshops, GenBio (spotlight) and AI4Physics</a>.</span></li>
+<li class="pub"><a class="pub-title" href="https://openreview.net/forum?id=M6l3jRDIV9">MoRE: Mixture of Reused Experts.</a><span class="pub-authors">E. S. Qiu*, <strong>U. U. Acikalin*</strong>, J. Lovelace, C. Belardi, A. B. Mulchandani, C. P. Gomes, K. Q. Weinberger.</span><span class="pub-venue">COLM 2026.</span></li>
+<li class="pub"><a class="pub-title" href="https://openreview.net/forum?id=vaJ4FObpXN">Learning to Explore and Exploit with GNNs for Unsupervised Combinatorial Optimization.</a><span class="pub-authors"><strong>U. U. Acikalin</strong>, A. M. Ferber, C. P. Gomes.</span><span class="pub-venue">ICLR 2025.</span></li>
+<li class="pub"><a class="pub-title" href="https://ojs.aaai.org/index.php/AAAI/article/view/39692">Unsupervised Combinatorial Probabilistic Reasoning: Probabilistic Coin Change Problem.</a><span class="pub-authors">Z. Qu, Y. Wang, <strong>U. U. Acikalin</strong>, et al.</span><span class="pub-venue">AAAI 2026.</span></li></ol>
+<p class="earlier"><strong>Earlier work (11 papers, 2019 - 2025):</strong> combinatorial optimization (INFORMS Journal on Computing, Constraints, GECCO), algorithmic game theory, NLP (Natural Language Engineering, SIGIR PatentSemTech workshop), and economics. Full list at <a href="https://utkuumur.github.io/#publications">utkuumur.github.io</a>.</p>
+</section>
+<section aria-labelledby="skills">
+<h2 id="skills">Technical skills</h2>
+<p class="skill"><strong>Machine learning:</strong> PyTorch, Hugging Face Transformers, scikit-learn; graph neural networks, mixture-of-experts transformers, learned search policies, LLM-based text extraction.</p>
+<p class="skill"><strong>Molecular ML:</strong> RDKit; MS/MS spectrum prediction and retrieval, fragmentation modeling, molecular fingerprints (Morgan, MIST), isomer-graph search; NIST20, MassSpecGym, NPLIB1, CASMI, GNPS.</p>
+<p class="skill"><strong>Optimization and HPC:</strong> integer programming (Gurobi, CPLEX), OR-Tools, A* and heuristic search; CPU/GPU similarity search at 100M+ scale, MPI, Cerebras CSL, AWS.</p>
+<p class="skill"><strong>Languages:</strong> Python, C++, Java, JavaScript.</p>
+</section>
+<section aria-labelledby="service">
+<h2 id="service">Presentations, service &amp; teaching</h2>
+<p class="service"><strong>ICML 2026, Seoul:</strong> GEMS at GenBio (spotlight) and AI4Physics; MoRE at Weight-Space Symmetries.</p>
+<p class="service"><strong>Reviewer:</strong> NeurIPS 2026; ICML 2026 GenBio Workshop; IEEE Transactions on Circuits and Systems I.</p>
+<p class="service"><strong>Teaching assistant:</strong> Introduction to Computer Programming; Design and Analysis of Algorithms; Social Networks; Combinatorics.</p>
+</section>
+<section aria-labelledby="awards">
+<h2 id="awards">Selected awards</h2>
+<p class="service"><strong>TUBITAK 2210 M.S. Scholarship</strong>, 2020 - 2022; <strong>TOBB ETU Graduate Special Merit Scholarship</strong>, 2019 - 2021; <strong>TUBITAK Undergraduate Research Project Contest</strong>, 2nd prize, 2019.</p>
+</section>
+<footer class="footer"><span>Publications and research: <a href="https://utkuumur.github.io/">utkuumur.github.io</a></span><span>2 / 2</span></footer>
+</article>
+</main>
+</body>
+</html>

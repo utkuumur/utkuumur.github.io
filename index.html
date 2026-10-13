@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Utku Umur Acikalin | AI for Molecular Discovery</title>
+<meta content="Utku Umur Acikalin is a Cornell Computer Science Ph.D. student working with Carla P. Gomes on AI for molecular discovery, molecular structure elucidation, and learned search." name="description"/>
+<meta content="#162c35" name="theme-color"/>
+<meta content="Utku Umur Acikalin | AI for Molecular Discovery" property="og:title"/>
+<meta content="Cornell CS Ph.D. research in molecular machine learning, neuro-symbolic reasoning, and large-scale scientific search. AIMe, GEMS, MoRE, X2GNN, and machine learning for financial economics." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://utkuumur.github.io/" property="og:url"/>
+<link href="https://utkuumur.github.io/" rel="canonical"/>
+<link href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2210%22%20fill%3D%22%23162c35%22/%3E%3Ctext%20x%3D%2232%22%20y%3D%2245%22%20text-anchor%3D%22middle%22%20font-family%3D%22Georgia%2Cserif%22%20font-size%3D%2243%22%20fill%3D%22%23fafbf8%22%3EU%3C/text%3E%3C/svg%3E%0A" rel="icon" type="image/svg+xml"/>
+<style>:root {
+  --ink: #162c35;
+  --muted: #52666b;
+  --accent: #17665e;
+  --accent-dark: #0f4c46;
+  --paper: #fafbf8;
+  --white: #fff;
+  --line: #d3deda;
+  --soft: #edf3ef;
+  --serif: Georgia, 'Times New Roman', serif;
+  --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 35px; }
+body { margin: 0; color: var(--ink); background: var(--paper); font-family: var(--sans); font-size: 16px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 4px; }
+a:hover { color: var(--accent-dark); }
+a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; border-radius: 2px; }
+::selection { background: #d2e4d9; color: var(--ink); }
+p, h1, h2, h3 { margin-top: 0; }
+p { margin-bottom: 16px; }
+.wrap { max-width: 1120px; margin: 0 auto; padding: 0 40px; }
+.skip { position: absolute; left: 20px; top: -80px; z-index: 10; padding: 12px 20px; background: var(--ink); color: white; }
+.skip:focus { top: 12px; color: white; }
+.site-header { border-bottom: 1px solid var(--line); }
+.header-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 86px; }
+.brand { color: var(--ink); font-size: 18px; font-weight: 650; letter-spacing: -.035em; text-decoration: none; white-space: nowrap; }
+.nav { display: flex; flex-wrap: wrap; align-items: center; gap: 26px; font-size: 14px; }
+.nav a { color: var(--muted); text-decoration: none; }
+.nav a:hover, .nav a[aria-current] { color: var(--accent); }
+.nav .nav-resume { color: var(--accent); font-weight: 650; }
+.hero { padding: 64px 0 38px; }
+.hero-grid { display: grid; grid-template-columns: 1.65fr 1fr; gap: 68px; align-items: center; }
+.eyebrow { font-size: 11px; line-height: 1.5; text-transform: uppercase; letter-spacing: .14em; font-weight: 650; color: var(--accent); margin: 0 0 18px; }
+h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(42px,5.1vw,61px); line-height: 1.06; letter-spacing: -.04em; margin-bottom: 24px; }
+.hero-copy { max-width: 650px; }
+.hero-copy p { font-size: 16px; line-height: 1.75; }
+.hero-copy .lead { font-size: 17px; }
+.inline-link { text-decoration: none; border-bottom: 1px solid #b1c9bd; }
+.social { display: flex; flex-wrap: wrap; gap: 10px 23px; margin-top: 23px; font-size: 14px; }
+.social a { text-decoration: none; }
+.system-card { background: var(--ink); color: var(--white); padding: 31px 29px 28px; border-radius: 3px; }
+.system-card .eyebrow { color: #b9d7c9; margin-bottom: 17px; }
+.system-card h2 { font-family: var(--serif); font-size: 33px; line-height: 1.1; font-weight: 400; letter-spacing: -.025em; margin: 0 0 10px; }
+.system-card .system-description { color: #dce6e2; font-size: 14px; line-height: 1.65; margin-bottom: 25px; }
+.metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; border-top: 1px solid #49615f; border-bottom: 1px solid #49615f; padding: 22px 0; margin: 0 0 23px; }
+.metric strong { display: block; font-family: var(--serif); font-size: 35px; font-weight: 400; letter-spacing: -.03em; line-height: 1; margin-bottom: 9px; }
+.metric span { display: block; font-size: 11px; line-height: 1.5; color: #ccddd5; }
+.system-card .button { color: var(--ink); background: #ecf2ed; width: 100%; justify-content: space-between; }
+.button { display: inline-flex; align-items: center; gap: 20px; padding: 11px 17px; border-radius: 2px; font-size: 13px; font-weight: 600; text-decoration: none; }
+.button span[aria-hidden] { font-size: 18px; line-height: 1; }
+.availability { display: flex; align-items: baseline; justify-content: space-between; gap: 22px; padding: 17px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); margin-top: 39px; font-size: 13px; }
+.availability p { margin: 0; }
+.availability a { white-space: nowrap; font-weight: 600; text-decoration: none; }
+.dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); margin-right: 10px; vertical-align: 2px; }
+.news { display: grid; grid-template-columns: 155px 1fr; gap: 34px; padding: 15px 0 43px; }
+.small-heading { font-size: 11px; text-transform: uppercase; letter-spacing: .14em; font-weight: 650; color: var(--muted); line-height: 1.6; margin: 3px 0 0; }
+.news-list { list-style: none; margin: 0; padding: 0; font-size: 13px; }
+.news-list li { display: grid; grid-template-columns: 76px 1fr; gap: 18px; margin: 0 0 10px; }
+.news-list li:last-child { margin-bottom: 0; }
+.news-list time, .news-date { color: var(--muted); font-variant-numeric: tabular-nums; }
+.news-list a { text-decoration: none; }
+.section { border-top: 1px solid var(--line); padding: 46px 0; }
+.section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 25px; margin-bottom: 26px; }
+.section-heading h2, .about h2 { font-family: var(--serif); font-size: 33px; font-weight: 400; letter-spacing: -.025em; line-height: 1.2; margin: 0; }
+.section-heading > a { font-size: 13px; white-space: nowrap; text-decoration: none; }
+.section-intro { max-width: 760px; color: var(--muted); margin: -9px 0 30px; font-size: 15px; }
+.research-grid { display: grid; grid-template-columns: 1.12fr 1fr; gap: 22px; }
+.research-card { padding: 28px; border: 1px solid var(--line); background: var(--white); border-radius: 3px; }
+.research-card.primary { background: var(--soft); border-color: #c5d7cb; }
+.project-type { color: var(--accent); font-size: 10px; text-transform: uppercase; letter-spacing: .12em; font-weight: 700; margin-bottom: 15px; }
+.research-card h3 { font-size: 24px; font-weight: 600; letter-spacing: -.035em; line-height: 1.2; margin: 0 0 12px; }
+.research-card .project-summary { font-size: 15px; line-height: 1.7; color: var(--ink); }
+.research-card .project-status { color: var(--muted); font-size: 12px; line-height: 1.65; margin: 20px 0 0; }
+.project-links { display: flex; flex-wrap: wrap; gap: 18px; margin: 15px 0 0; font-size: 13px; font-weight: 600; }
+.project-links a { text-decoration: none; }
+.supporting-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px; margin-top: 31px; }
+.supporting { padding-top: 22px; border-top: 1px solid var(--line); }
+.supporting h3 { font-size: 19px; letter-spacing: -.025em; line-height: 1.3; margin-bottom: 7px; }
+.supporting p { font-size: 14px; color: var(--muted); margin-bottom: 11px; line-height: 1.7; }
+.supporting .project-links { font-size: 12px; }
+.pubs { list-style: none; margin: 0; padding: 0; }
+.pub { padding: 20px 0; border-top: 1px solid var(--line); margin: 0; }
+.pub:first-child { padding-top: 0; border-top: 0; }
+.pub-title { display: block; font-size: 16px; font-weight: 600; line-height: 1.5; color: var(--ink); text-decoration: none; max-width: 920px; }
+.pub-title:hover { color: var(--accent); }
+.pub-authors { display: block; font-size: 13px; color: var(--muted); margin: 5px 0 3px; }
+.pub-authors strong { color: var(--ink); font-weight: 600; }
+.pub-venue { display: block; font-size: 12px; color: var(--accent); }
+.pub-note { color: var(--muted); font-size: 12px; margin: -9px 0 24px; }
+.about-grid { display: grid; grid-template-columns: 1.12fr 1fr; gap: 64px; }
+.about h2 { margin-bottom: 21px; }
+.about p { color: var(--muted); font-size: 15px; }
+.education-list { list-style: none; margin: 2px 0 0; padding: 0; }
+.education-list li { padding: 0 0 18px; margin-bottom: 18px; border-bottom: 1px solid var(--line); }
+.education-list li:last-child { padding: 0; margin: 0; border: 0; }
+.education-list strong { display: block; font-size: 14px; font-weight: 600; }
+.education-list span { display: block; font-size: 13px; color: var(--muted); }
+.education-list .degree-date { font-size: 11px; color: var(--accent); margin-top: 4px; }
+.contact-section { border-top: 1px solid var(--line); padding: 37px 0; display: flex; align-items: center; justify-content: space-between; gap: 36px; }
+.contact-section h2 { font-family: var(--serif); font-size: 28px; font-weight: 400; line-height: 1.2; letter-spacing: -.02em; margin: 0 0 8px; }
+.contact-section p { font-size: 14px; color: var(--muted); margin: 0; }
+.contact-section > a { font-size: 15px; white-space: nowrap; }
+.site-footer { border-top: 1px solid var(--line); padding: 19px 0 26px; color: var(--muted); font-size: 11px; }
+.footer-inner { display: flex; justify-content: space-between; gap: 24px; }
+.footer-inner a { text-decoration: none; }
+.publication-page { padding: 51px 0; max-width: 910px; }
+.publication-page h1 { font-size: 46px; margin-bottom: 16px; }
+.publication-page .page-intro { font-size: 15px; color: var(--muted); max-width: 660px; }
+.publication-page h2 { font-family: var(--serif); font-size: 27px; font-weight: 400; margin: 36px 0 25px; }
+.publication-page .pub-title { font-size: 16px; }
+.back-link { display: inline-block; margin-bottom: 25px; text-decoration: none; font-size: 13px; }
+@media (max-width:900px) {
+ .wrap { padding: 0 28px; }
+ .hero-grid { gap: 32px; grid-template-columns: 1.4fr 1fr; }
+ h1 { font-size: 47px; }
+ .hero-copy .lead { font-size: 16px; }
+ .system-card { padding: 26px 23px; }
+ .system-card h2 { font-size: 30px; }
+ .research-card { padding: 24px; }
+ .nav { gap: 20px; }
+ .about-grid { gap: 36px; }
+ .supporting-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width:680px) {
+ .wrap { padding: 0 22px; }
+ .header-inner { padding-top: 20px; padding-bottom: 17px; flex-direction: column; align-items: flex-start; gap: 12px; }
+ .brand { font-size: 19px; }
+ .nav { gap: 23px; font-size: 13px; }
+ .hero { padding-top: 36px; }
+ .hero-grid, .research-grid, .about-grid, .supporting-grid { grid-template-columns: 1fr; gap: 24px; }
+ h1 { font-size: 48px; max-width: 550px; }
+ .hero-copy p, .hero-copy .lead { font-size: 15px; }
+ .hero .eyebrow { font-size: 10px; }
+ .system-card { padding: 25px; }
+ .system-card .system-description { margin-bottom: 17px; }
+ .metrics { padding: 18px 0; margin-bottom: 19px; }
+ .metric strong { font-size: 37px; }
+ .availability { margin-top: 28px; align-items: flex-start; flex-direction: column; gap: 9px; font-size: 12px; }
+ .news { grid-template-columns: 1fr; gap: 14px; padding: 0 0 30px; }
+ .news-list { font-size: 12px; }
+ .news-list li { grid-template-columns: 63px 1fr; gap: 12px; margin-bottom: 13px; }
+ .section { padding: 32px 0; }
+ .section-heading { margin-bottom: 24px; align-items: flex-start; flex-direction: column; gap: 11px; }
+ .section-heading h2, .about h2 { font-size: 30px; }
+ .section-intro { font-size: 14px; }
+ .supporting-grid { gap: 5px; margin-top: 25px; }
+ .supporting { padding-top: 22px; }
+ .research-card h3 { font-size: 24px; }
+ .pub-title { font-size: 15px; }
+ .pub-authors { font-size: 12px; }
+ .pub-venue { font-size: 11px; }
+ .contact-section { flex-direction: column; align-items: flex-start; gap: 16px; padding: 28px 0; }
+ .contact-section > a { white-space: normal; overflow-wrap: anywhere; }
+ .footer-inner { flex-direction: column; gap: 7px; }
+ .publication-page { padding-top: 33px; }
+ .publication-page h1 { font-size: 40px; }
+}
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+@media print {
+ body { background:white; color:black; font-size:11pt; }
+ .site-header,.skip,.availability,.site-footer { display:none; }
+ .wrap { max-width:none; padding:0; }
+ .hero,.section,.publication-page { padding:20px 0; }
+ .hero-grid,.research-grid,.supporting-grid,.about-grid { display:block; }
+ .system-card { background:white; color:black; border:1px solid #888; margin:20px 0; }
+ .system-card .eyebrow,.system-card .system-description,.metric span { color:#333; }
+ .research-card,.supporting,.pub { break-inside:avoid; margin-bottom:15px; }
+ a { color:inherit; }
+}
+
+.preview-older{margin-top:25px;border-top:1px solid var(--line);padding-top:20px}.preview-older summary{cursor:pointer;color:var(--accent);font-size:14px}.preview-older .pubs{margin-top:22px}</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Utku Umur Acikalin","url":"https://utkuumur.github.io/","email":"mailto:uuacikalin@gmail.com","jobTitle":"Computer Science Ph.D. student","affiliation":{"@type":"CollegeOrUniversity","name":"Cornell University"},"sameAs":["https://github.com/utkuumur","https://scholar.google.com/citations?user=acAG2w4AAAAJ&hl=en","https://www.linkedin.com/in/uuacikalin","https://orcid.org/0000-0002-0381-8831"],"knowsAbout":["AI for Science","Molecular machine learning","Mass spectrometry","Combinatorial optimization"]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="wrap header-inner">
+<a class="brand" href="#main">Utku Umur Acikalin</a>
+<nav aria-label="Main navigation" class="nav"><a href="#research">Research</a><a href="#publications">Publications</a><a href="#about">About</a><a class="nav-resume" href="Utku_Acikalin_Resume_2027.pdf">Résumé <span aria-hidden="true">↗</span></a></nav>
+</div>
+</header>
+<main class="wrap" id="main">
+<section aria-labelledby="intro-title" class="hero">
+<div class="hero-grid">
+<div class="hero-copy">
+<p class="eyebrow">Cornell Computer Science · Gomes Lab</p>
+<h1 id="intro-title">AI for molecular<br/>discovery.</h1>
+<p class="lead">I'm Utku, a fourth-year Ph.D. student at <strong>Cornell University</strong>, advised by <a class="inline-link" href="https://www.cs.cornell.edu/gomes/">Carla P. Gomes</a>.</p>
+<p>I work on large-scale scientific problems where standard deep learning struggles, and build methods that use the structure of the problem instead of ignoring it: chemical rules, graph structure, and combinatorial search. My main focus is identifying unknown molecules from tandem mass spectra.</p>
+<p>Interpretability is central to this work. AIMe explains each predicted peak and its intensity with a mechanistic fragmentation pathway. GEMS links spectral evidence to specific atoms and bonds, and every step of its search is a valid molecule a chemist can inspect. I also want these methods to be usable by scientists without an AI background, which is why AIMe runs as a public search system over 105M molecules.</p>
+<p>I also work on language models and their applications in financial economics, learned combinatorial optimization, and efficient deep learning.</p>
+<div aria-label="Professional profiles" class="social"><a href="mailto:uuacikalin@gmail.com">Email</a><a href="https://scholar.google.com/citations?user=acAG2w4AAAAJ&amp;hl=en">Google Scholar</a><a href="https://github.com/utkuumur">GitHub</a><a href="https://www.linkedin.com/in/uuacikalin">LinkedIn</a><a href="https://orcid.org/0000-0002-0381-8831">ORCID</a></div>
+</div>
+<aside aria-label="AIMe public research system" class="system-card">
+<p class="eyebrow">Public research system</p>
+<h2>AIMe + MS²KOSMOS</h2>
+<p class="system-description">Spectral prediction, molecular search, and interpretable fragmentation in one research workflow.</p>
+<div aria-label="MS2KOSMOS scale" class="metrics">
+<div class="metric"><strong>105M</strong><span>molecular structures</span></div>
+<div class="metric"><strong>800M+</strong><span>predicted MS/MS spectra</span></div>
+</div>
+<a class="button" href="https://www.cs.cornell.edu/gomes/udiscoverit/kosmos/search.html">Explore the public demo <span aria-hidden="true">↗</span></a>
+</aside>
+</div>
+</section>
+<section aria-labelledby="news-title" class="news">
+<h2 class="small-heading" id="news-title">Recent updates</h2>
+<ul class="news-list">
+<li><time datetime="2026-09">Sep 2026</time><span>A new version of <strong>GEMS</strong>, fingerprint-guided learned search over isomer graphs, is under review at <strong>ICLR 2027</strong>.</span></li>
+<li><time datetime="2026-08">Aug 2026</time><span><a href="https://doi.org/10.64898/2026.08.05.743095">AIMe is on bioRxiv</a> and under review at Nature. The <a href="https://www.cs.cornell.edu/gomes/udiscoverit/kosmos/search.html">public research system</a> is live.</span></li>
+<li><span class="news-date">2026</span><span><a href="https://openreview.net/forum?id=M6l3jRDIV9">MoRE</a> was accepted to <strong>COLM 2026</strong>.</span></li>
+<li><time datetime="2026-07">Jul 2026</time><span><strong>ICML workshops:</strong> GEMS at GenBio (spotlight) and AI4Physics (poster); MoRE at Weight-Space Symmetries (poster).</span></li>
+<li><time datetime="2026-05">May 2026</time><span>Our paper on lost patent protection and competition was published in the <a href="https://doi.org/10.1016/j.jfineco.2026.104306">Journal of Financial Economics</a>.</span></li>
+</ul>
+</section>
+<section aria-labelledby="research-title" class="section" id="research">
+<div class="section-heading"><h2 id="research-title">Research</h2><a href="#publications">Publications and preprints <span aria-hidden="true">↗</span></a></div>
+<p class="section-intro">My main research question is how to combine learned models with scientific constraints to recover molecular structure from incomplete experimental evidence.</p>
+<div class="research-grid">
+<article class="research-card primary">
+<p class="project-type">Molecular discovery · Neuro-symbolic AI</p>
+<h3>AIMe &amp; MS²KOSMOS</h3>
+<p class="project-summary">AIMe combines learned spectral prediction with chemically constrained fragmentation, reaching 0.83 cosine similarity on NIST vs. 0.74 for the strongest baseline. MS²KOSMOS makes the resulting molecular space searchable, with peak-level structural annotations and fragmentation-pathway explanations.</p>
+<p class="project-summary">I co-designed and implemented AIMe and co-developed its public interface. The collaborative study used the system to elucidate previously unreported microbiota-dependent polyamines, with validation by chemical synthesis.</p>
+<p class="project-status">Co-first author · bioRxiv 2026; under review at Nature</p>
+<div class="project-links"><a href="https://doi.org/10.64898/2026.08.05.743095">Read the preprint <span aria-hidden="true">↗</span></a><a href="https://www.cs.cornell.edu/gomes/udiscoverit/kosmos/search.html">Try the system <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="research-card">
+<p class="project-type">Molecular structure · Learned graph search</p>
+<h3>GEMS</h3>
+<p class="project-summary">GEMS treats known-formula structure elucidation as learned search over isomer graphs. Starting from database candidates, it refines complete structures through bond edits that preserve the molecular formula and every atom's valence, so it can reach molecules outside the database.</p>
+<p class="project-summary">A policy links fingerprints predicted from the spectrum by MIST to the candidate's atoms and bonds, and scores every valid edit in one forward pass. Shortest-path supervision allows pretraining on structures alone. With the true structure excluded from the starting set, GEMS reaches 30.2% Hit@1 on MassSpecGym and 29.6% on NPLIB1.</p>
+<p class="project-status">First author · under review at ICLR 2027 · earlier version: ICML 2026 workshops, GenBio spotlight and AI4Physics poster</p>
+<div class="project-links"><a href="https://openreview.net/forum?id=Ic5qOZ6xur">Read the workshop paper <span aria-hidden="true">↗</span></a></div>
+</article>
+</div>
+<div class="supporting-grid">
+<article class="supporting"><p class="project-type">Deep learning · COLM 2026</p><h3>MoRE: Mixture of Reused Experts</h3><p>A middle ground between standard mixture-of-experts models and looped (Universal) Transformers: adjacent layers share one expert pool but keep their own routers, with depth embeddings so shared experts can tell layers apart. This expands routing choices about 18x without adding parameters, and beats a standard DeepSeek-v3-style MoE and MoEUT from 114M to 1.15B parameters at matched parameters and FLOPs.</p><div class="project-links"><a href="https://openreview.net/forum?id=M6l3jRDIV9">Paper <span aria-hidden="true">↗</span></a><a href="https://arxiv.org/abs/2609.18176">arXiv <span aria-hidden="true">↗</span></a><a href="https://github.com/EricQiu6/MoRE">Code <span aria-hidden="true">↗</span></a></div></article>
+<article class="supporting"><p class="project-type">Optimization · ICLR 2025</p><h3>X²GNN: exploration and exploitation</h3><p>Unsupervised graph-neural optimization for Maximum Independent Set, Maximum Clique, and Max-Cut, combining exploration with iterative solution improvement. Trained on a single refinement step, it can be iterated much longer at test time, trading inference compute for solution quality: within 1.2% of optimal on large Max Clique benchmarks, where prior neural methods stay above 22%, and ahead of Gurobi at similar runtime.</p><div class="project-links"><a href="https://openreview.net/forum?id=vaJ4FObpXN">Paper <span aria-hidden="true">↗</span></a><a href="https://github.com/utkuumur/X2GNN">Code <span aria-hidden="true">↗</span></a></div></article>
+<article class="supporting"><p class="project-type">Financial economics · JFE 2026</p><h3>Language models and their applications in financial economics</h3><p>Fine-tuned long-context language models to score 643K patents for exposure to the Supreme Court's <em>Alice</em> decision. The measure shows large firms gaining and small firms losing after patent protection weakened.</p><div class="project-links"><a href="https://doi.org/10.1016/j.jfineco.2026.104306">Paper <span aria-hidden="true">↗</span></a><a href="https://www.nber.org/papers/w30671">NBER <span aria-hidden="true">↗</span></a></div></article>
+</div>
+</section>
+<section aria-labelledby="publications-title" class="section" id="publications">
+<div class="section-heading"><h2 id="publications-title">Selected publications</h2><a href="https://scholar.google.com/citations?user=acAG2w4AAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a></div>
+<p class="pub-note">* Equal contribution. Preprints and workshop papers are labeled explicitly.</p>
+<ol class="pubs"><li class="pub"><a class="pub-title" href="https://doi.org/10.1016/j.jfineco.2026.104306">Intellectual property protection lost and competition: An examination using large language models.</a><span class="pub-authors"><strong>U. U. Acikalin</strong>, T. Caskurlu, G. Hoberg, G. M. Phillips.</span><span class="pub-venue">Journal of Financial Economics 182:104306, 2026.</span></li>
+<li class="pub"><a class="pub-title" href="https://doi.org/10.64898/2026.08.05.743095">Charting the small-molecule universe from mass spectra with neuro-symbolic AI.</a><span class="pub-authors"><strong>U. U. Acikalin*</strong>, D. Feng*, A. M. Ferber*, G. J. Gouveia*, et al.</span><span class="pub-venue">bioRxiv 2026; under review at Nature.</span></li>
+<li class="pub"><span class="pub-title">GEMS: Molecular Structure Elucidation as Learned Search over Isomer Graphs.</span><span class="pub-authors"><strong>U. U. Acikalin</strong>, Y. Wang, G. J. Gouveia, T. Schwertfeger, F. C. Schroeder, C. P. Gomes.</span><span class="pub-venue">Under review at ICLR 2027. Earlier version: <a href="https://openreview.net/forum?id=Ic5qOZ6xur">ICML 2026 workshops</a>, GenBio spotlight; AI4Physics poster.</span></li>
+<li class="pub"><a class="pub-title" href="https://openreview.net/forum?id=M6l3jRDIV9">MoRE: Mixture of Reused Experts.</a><span class="pub-authors">E. S. Qiu*, <strong>U. U. Acikalin*</strong>, J. Lovelace, C. Belardi, A. B. Mulchandani, C. P. Gomes, K. Q. Weinberger.</span><span class="pub-venue">COLM 2026, accepted.</span></li>
+<li class="pub"><a class="pub-title" href="https://openreview.net/forum?id=vaJ4FObpXN">Learning to Explore and Exploit with GNNs for Unsupervised Combinatorial Optimization.</a><span class="pub-authors"><strong>U. U. Acikalin</strong>, A. M. Ferber, C. P. Gomes.</span><span class="pub-venue">ICLR 2025.</span></li>
+<li class="pub"><a class="pub-title" href="https://ojs.aaai.org/index.php/AAAI/article/view/39692">Unsupervised Combinatorial Probabilistic Reasoning: Probabilistic Coin Change Problem.</a><span class="pub-authors">Z. Qu, Y. Wang, <strong>U. U. Acikalin</strong>, et al.</span><span class="pub-venue">AAAI 2026.</span></li></ol>
+<details class="preview-older"><summary>Earlier publications</summary><ol class="pubs"><li class="pub"><span class="pub-title">Does Public Procurement Promote Markets for New Technologies? Implications for Competition and Small Firms.</span><span class="pub-authors"><strong>U. U. Acikalin</strong>, M. Kutlu, R. Palalic, B. K. O. Tas.</span><span class="pub-venue">Strategic Change, 2025.</span></li>
+<li class="pub"><span class="pub-title">Models for test cost minimization in database migration.</span><span class="pub-authors">B. Caskurlu, K. Subramani, <strong>U. U. Acikalin</strong>, A. Velasquez, P. Wojciechowski.</span><span class="pub-venue">INFORMS Journal on Computing 37(2):249-269, 2025.</span></li>
+<li class="pub"><span class="pub-title">Solving Secluded Path Problem by Heuristics and Local Search.</span><span class="pub-authors"><strong>U. U. Acikalin</strong>, B. Caskurlu, O. Abul.</span><span class="pub-venue">ACM AICONF 2024.</span></li>
+<li class="pub"><span class="pub-title">Security-aware database migration planning.</span><span class="pub-authors"><strong>U. U. Acikalin</strong>, B. Caskurlu, K. Subramani.</span><span class="pub-venue">Constraints 28(3):472-505, 2023.</span></li>
+<li class="pub"><span class="pub-title">How you describe procurement calls matters: Predicting outcome of public procurement using call descriptions.</span><span class="pub-authors"><strong>U. U. Acikalin</strong>, M. K. Gorgun, M. Kutlu, B. K. O. Tas.</span><span class="pub-venue">Natural Language Engineering, 2023.</span></li>
+<li class="pub"><a class="pub-title" href="https://doi.org/10.55730/1300-0632.3934">On approximate Nash equilibria of the two-source connection game.</a><span class="pub-authors">B. Caskurlu, <strong>U. U. Acikalin</strong>, F. E. Kizilkaya, O. Ekici.</span><span class="pub-venue">Turkish Journal of Electrical Engineering and Computer Sciences 30(6):2206-2220, 2022.</span></li>
+<li class="pub"><a class="pub-title" href="https://arxiv.org/abs/2207.11497">Patent Search Using Triplet Networks Based Fine-Tuned SciBERT.</a><span class="pub-authors"><strong>U. U. Acikalin</strong>, M. Kutlu.</span><span class="pub-venue">ACM SIGIR Patent Text Mining and Semantic Technologies Workshop, 2022.</span></li>
+<li class="pub"><a class="pub-title" href="https://doi.org/10.1145/3520304.3529050">Multilevel memetic hypergraph partitioning with greedy recombination.</a><span class="pub-authors"><strong>U. U. Acikalin</strong>, B. Caskurlu.</span><span class="pub-venue">ACM GECCO Companion, 2022.</span></li>
+<li class="pub"><span class="pub-title">New Results on Test-Cost Minimization in Database Migration.</span><span class="pub-authors"><strong>U. U. Acikalin</strong>, B. Caskurlu, P. Wojciechowski, K. Subramani.</span><span class="pub-venue">ALGOCLOUD 2021.</span></li>
+<li class="pub"><span class="pub-title">Turkish Sentiment Analysis Using BERT.</span><span class="pub-authors"><strong>U. U. Acikalin</strong>, B. Bardak, M. Kutlu.</span><span class="pub-venue">IEEE SIU, 2020.</span></li>
+<li class="pub"><span class="pub-title">Security-Aware Database Migration Planning.</span><span class="pub-authors">K. Subramani, B. Caskurlu, <strong>U. U. Acikalin</strong>.</span><span class="pub-venue">ALGOCLOUD 2019.</span></li></ol></details></section>
+<section aria-labelledby="about-title" class="section about" id="about">
+<div class="about-grid">
+<div>
+<h2 id="about-title">Background</h2>
+<p>At Cornell, I work with Carla P. Gomes on AI for molecular discovery. My research spans model development, chemically constrained inference, and systems that make molecular search usable by domain scientists.</p>
+<p>Before Cornell, I earned my M.S. and B.S. in Computer Engineering at TOBB University of Economics and Technology in Ankara, Turkey.</p>
+<p>Alongside molecular research, I have worked on combinatorial optimization and on language models and their applications in financial economics, including a Journal of Financial Economics paper on how losing patent protection affected competition. There, too, the goal was a tool for domain experts: our patent-exposure score turned a fine-tuned language model into a measure economists could use directly.</p>
+<p><a href="Utku_Acikalin_Resume_2027.pdf">Research résumé (PDF)</a> · <a href="Utku_Acikalin_Resume_2027.html">HTML version</a></p>
+</div>
+<div>
+<p class="eyebrow">Education</p>
+<ul class="education-list">
+<li><strong>Cornell University</strong><span>Ph.D. in Computer Science</span><span>Advisor: Carla P. Gomes</span><span class="degree-date">2023 - present</span></li>
+<li><strong>TOBB University of Economics and Technology</strong><span>M.S. in Computer Engineering · GPA 4.00/4.00</span><span class="degree-date">2019 - 2022</span></li>
+<li><strong>TOBB University of Economics and Technology</strong><span>B.S. in Computer Engineering · GPA 3.74/4.00</span><span class="degree-date">2015 - 2019</span></li>
+</ul>
+</div>
+</div>
+</section>
+<section aria-labelledby="contact-title" class="contact-section" id="contact"><div><h2 id="contact-title">Research &amp; collaboration</h2><p>Interested in molecular machine learning, AI4Science, and language models.</p></div><a href="mailto:uuacikalin@gmail.com">uuacikalin@gmail.com <span aria-hidden="true">↗</span></a></section>
+</main>
+<footer class="site-footer"><div class="wrap footer-inner"><span>Utku Umur Acikalin · Cornell University · Ithaca, NY</span><span>Updated October 2026 · <a href="https://github.com/utkuumur">GitHub</a></span></div></footer>
+</body>
+</html>
