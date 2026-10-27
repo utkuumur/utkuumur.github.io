@@ -222,6 +222,7 @@ h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(42px,5.1vw,61
 <section aria-labelledby="news-title" class="news">
 <h2 class="small-heading" id="news-title">Recent updates</h2>
 <ul class="news-list">
+<li><time datetime="2026-10">Oct 2026</time><span>The new <a href="https://arxiv.org/abs/2610.23617">GEMS preprint</a> is on arXiv.</span></li>
 <li><time datetime="2026-09">Sep 2026</time><span>A new version of <strong>GEMS</strong>, fingerprint-guided learned search over isomer graphs, is under review at <strong>ICLR 2027</strong>.</span></li>
 <li><time datetime="2026-08">Aug 2026</time><span><a href="https://doi.org/10.64898/2026.08.05.743095">AIMe is on bioRxiv</a> and under review at Nature. The <a href="https://www.cs.cornell.edu/gomes/udiscoverit/kosmos/search.html">public research system</a> is live.</span></li>
 <li><span class="news-date">2026</span><span><a href="https://openreview.net/forum?id=M6l3jRDIV9">MoRE</a> was accepted to <strong>COLM 2026</strong>.</span></li>
@@ -236,7 +237,7 @@ h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(42px,5.1vw,61
 <article class="research-card primary">
 <p class="project-type">Molecular discovery · Neuro-symbolic AI</p>
 <h3>AIMe &amp; MS²KOSMOS</h3>
-<p class="project-summary">AIMe combines learned spectral prediction with chemically constrained fragmentation, reaching 0.83 cosine similarity on NIST vs. 0.74 for the strongest baseline. MS²KOSMOS makes the resulting molecular space searchable, with peak-level structural annotations and fragmentation-pathway explanations.</p>
+<p class="project-summary">AIMe combines learned spectral prediction with chemically constrained fragmentation, reaching 0.83 cosine similarity on NIST vs. 0.75 for the strongest baseline. MS²KOSMOS makes the resulting molecular space searchable, with peak-level structural annotations and fragmentation-pathway explanations.</p>
 <p class="project-summary">I co-designed and implemented AIMe and co-developed its public interface. The collaborative study used the system to elucidate previously unreported microbiota-dependent polyamines, with validation by chemical synthesis.</p>
 <p class="project-status">Co-first author · bioRxiv 2026; under review at Nature</p>
 <div class="project-links"><a href="https://doi.org/10.64898/2026.08.05.743095">Read the preprint <span aria-hidden="true">↗</span></a><a href="https://www.cs.cornell.edu/gomes/udiscoverit/kosmos/search.html">Try the system <span aria-hidden="true">↗</span></a></div>
@@ -246,8 +247,8 @@ h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(42px,5.1vw,61
 <h3>GEMS</h3>
 <p class="project-summary">GEMS treats known-formula structure elucidation as learned search over isomer graphs. Starting from database candidates, it refines complete structures through bond edits that preserve the molecular formula and every atom's valence, so it can reach molecules outside the database.</p>
 <p class="project-summary">A policy links fingerprints predicted from the spectrum by MIST to the candidate's atoms and bonds, and scores every valid edit in one forward pass. Shortest-path supervision allows pretraining on structures alone. With the true structure excluded from the starting set, GEMS reaches 30.2% Hit@1 on MassSpecGym and 29.6% on NPLIB1.</p>
-<p class="project-status">First author · under review at ICLR 2027 · earlier version: ICML 2026 workshops, GenBio spotlight and AI4Physics poster</p>
-<div class="project-links"><a href="https://openreview.net/forum?id=Ic5qOZ6xur">Read the workshop paper <span aria-hidden="true">↗</span></a></div>
+<p class="project-status">First author · arXiv 2026, under review at ICLR 2027 · earlier version: ICML 2026 workshops, GenBio spotlight and AI4Physics poster</p>
+<div class="project-links"><a href="https://arxiv.org/abs/2610.23617">Read the preprint <span aria-hidden="true">↗</span></a><a href="https://openreview.net/forum?id=Ic5qOZ6xur">Workshop paper <span aria-hidden="true">↗</span></a></div>
 </article>
 </div>
 <div class="supporting-grid">
@@ -261,7 +262,7 @@ h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(42px,5.1vw,61
 <p class="pub-note">* Equal contribution. Preprints and workshop papers are labeled explicitly.</p>
 <ol class="pubs"><li class="pub"><a class="pub-title" href="https://doi.org/10.1016/j.jfineco.2026.104306">Intellectual property protection lost and competition: An examination using large language models.</a><span class="pub-authors"><strong>U. U. Acikalin</strong>, T. Caskurlu, G. Hoberg, G. M. Phillips.</span><span class="pub-venue">Journal of Financial Economics 182:104306, 2026.</span></li>
 <li class="pub"><a class="pub-title" href="https://doi.org/10.64898/2026.08.05.743095">Charting the small-molecule universe from mass spectra with neuro-symbolic AI.</a><span class="pub-authors"><strong>U. U. Acikalin*</strong>, D. Feng*, A. M. Ferber*, G. J. Gouveia*, et al.</span><span class="pub-venue">bioRxiv 2026; under review at Nature.</span></li>
-<li class="pub"><span class="pub-title">GEMS: Molecular Structure Elucidation as Learned Search over Isomer Graphs.</span><span class="pub-authors"><strong>U. U. Acikalin</strong>, Y. Wang, G. J. Gouveia, T. Schwertfeger, F. C. Schroeder, C. P. Gomes.</span><span class="pub-venue">Under review at ICLR 2027. Earlier version: <a href="https://openreview.net/forum?id=Ic5qOZ6xur">ICML 2026 workshops</a>, GenBio spotlight; AI4Physics poster.</span></li>
+<li class="pub"><a class="pub-title" href="https://arxiv.org/abs/2610.23617">GEMS: Molecular Structure Elucidation as Learned Search over Isomer Graphs.</a><span class="pub-authors"><strong>U. U. Acikalin</strong>, Y. Wang, G. J. Gouveia, T. Schwertfeger, F. C. Schroeder, C. P. Gomes.</span><span class="pub-venue">arXiv 2026; under review at ICLR 2027. Earlier version: <a href="https://openreview.net/forum?id=Ic5qOZ6xur">ICML 2026 workshops</a>, GenBio spotlight; AI4Physics poster.</span></li>
 <li class="pub"><a class="pub-title" href="https://openreview.net/forum?id=M6l3jRDIV9">MoRE: Mixture of Reused Experts.</a><span class="pub-authors">E. S. Qiu*, <strong>U. U. Acikalin*</strong>, J. Lovelace, C. Belardi, A. B. Mulchandani, C. P. Gomes, K. Q. Weinberger.</span><span class="pub-venue">COLM 2026, accepted.</span></li>
 <li class="pub"><a class="pub-title" href="https://openreview.net/forum?id=vaJ4FObpXN">Learning to Explore and Exploit with GNNs for Unsupervised Combinatorial Optimization.</a><span class="pub-authors"><strong>U. U. Acikalin</strong>, A. M. Ferber, C. P. Gomes.</span><span class="pub-venue">ICLR 2025.</span></li>
 <li class="pub"><a class="pub-title" href="https://ojs.aaai.org/index.php/AAAI/article/view/39692">Unsupervised Combinatorial Probabilistic Reasoning: Probabilistic Coin Change Problem.</a><span class="pub-authors">Z. Qu, Y. Wang, <strong>U. U. Acikalin</strong>, et al.</span><span class="pub-venue">AAAI 2026.</span></li></ol>
