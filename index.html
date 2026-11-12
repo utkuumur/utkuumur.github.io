@@ -5,7 +5,7 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <title>Utku Umur Acikalin | AI for Molecular Discovery</title>
-<meta content="Utku Umur Acikalin is a Cornell Computer Science Ph.D. student working with Carla P. Gomes on AI for molecular discovery, molecular structure elucidation, and learned search." name="description"/>
+<meta content="Utku Umur Acikalin is a Cornell Computer Science Ph.D. candidate working with Carla P. Gomes on AI for molecular discovery, molecular structure elucidation, and learned search." name="description"/>
 <meta content="#162c35" name="theme-color"/>
 <meta content="Utku Umur Acikalin | AI for Molecular Discovery" property="og:title"/>
 <meta content="Cornell CS Ph.D. research in molecular machine learning, neuro-symbolic reasoning, and large-scale scientific search. AIMe, GEMS, MoRE, X2GNN, and machine learning for financial economics." property="og:description"/>
@@ -80,9 +80,14 @@ h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(42px,5.1vw,61
 .section-heading h2, .about h2 { font-family: var(--serif); font-size: 33px; font-weight: 400; letter-spacing: -.025em; line-height: 1.2; margin: 0; }
 .section-heading > a { font-size: 13px; white-space: nowrap; text-decoration: none; }
 .section-intro { max-width: 760px; color: var(--muted); margin: -9px 0 30px; font-size: 15px; }
-.research-grid { display: grid; grid-template-columns: 1.12fr 1fr; gap: 22px; }
-.research-card { padding: 28px; border: 1px solid var(--line); background: var(--white); border-radius: 3px; }
+.research-grid { display: grid; grid-template-columns: 1fr; gap: 22px; }
+.research-card { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 34px; align-items: start; padding: 28px; border: 1px solid var(--line); background: var(--white); border-radius: 3px; }
 .research-card.primary { background: var(--soft); border-color: #c5d7cb; }
+.project-figure { margin: 0; }
+.project-figure a { display: block; padding: 10px; background: var(--white); border: 1px solid var(--line); border-radius: 3px; }
+.project-figure img { display: block; width: 100%; height: auto; }
+.project-figure figcaption { margin-top: 9px; font-size: 11px; line-height: 1.55; color: var(--muted); }
+.project-figure figcaption a { display: inline; padding: 0; border: 0; background: none; }
 .project-type { color: var(--accent); font-size: 10px; text-transform: uppercase; letter-spacing: .12em; font-weight: 700; margin-bottom: 15px; }
 .research-card h3 { font-size: 24px; font-weight: 600; letter-spacing: -.035em; line-height: 1.2; margin: 0 0 12px; }
 .research-card .project-summary { font-size: 15px; line-height: 1.7; color: var(--ink); }
@@ -132,7 +137,7 @@ h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(42px,5.1vw,61
  .hero-copy .lead { font-size: 16px; }
  .system-card { padding: 26px 23px; }
  .system-card h2 { font-size: 30px; }
- .research-card { padding: 24px; }
+ .research-card { padding: 24px; grid-template-columns: 1fr; gap: 22px; }
  .nav { gap: 20px; }
  .about-grid { gap: 36px; }
  .supporting-grid { grid-template-columns: 1fr 1fr; }
@@ -162,6 +167,7 @@ h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(42px,5.1vw,61
  .supporting-grid { gap: 5px; margin-top: 25px; }
  .supporting { padding-top: 22px; }
  .research-card h3 { font-size: 24px; }
+ .project-figure a { padding: 6px; }
  .pub-title { font-size: 15px; }
  .pub-authors { font-size: 12px; }
  .pub-venue { font-size: 11px; }
@@ -177,7 +183,8 @@ h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(42px,5.1vw,61
  .site-header,.skip,.availability,.site-footer { display:none; }
  .wrap { max-width:none; padding:0; }
  .hero,.section,.publication-page { padding:20px 0; }
- .hero-grid,.research-grid,.supporting-grid,.about-grid { display:block; }
+ .hero-grid,.research-grid,.research-card,.supporting-grid,.about-grid { display:block; }
+ .project-figure { max-width:5in; margin-bottom:12px; }
  .system-card { background:white; color:black; border:1px solid #888; margin:20px 0; }
  .system-card .eyebrow,.system-card .system-description,.metric span { color:#333; }
  .research-card,.supporting,.pub { break-inside:avoid; margin-bottom:15px; }
@@ -185,7 +192,7 @@ h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(42px,5.1vw,61
 }
 
 .preview-older{margin-top:25px;border-top:1px solid var(--line);padding-top:20px}.preview-older summary{cursor:pointer;color:var(--accent);font-size:14px}.preview-older .pubs{margin-top:22px}</style>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Utku Umur Acikalin","url":"https://utkuumur.github.io/","email":"mailto:uuacikalin@gmail.com","jobTitle":"Computer Science Ph.D. student","affiliation":{"@type":"CollegeOrUniversity","name":"Cornell University"},"sameAs":["https://github.com/utkuumur","https://scholar.google.com/citations?user=acAG2w4AAAAJ&hl=en","https://www.linkedin.com/in/uuacikalin","https://orcid.org/0000-0002-0381-8831"],"knowsAbout":["AI for Science","Molecular machine learning","Mass spectrometry","Combinatorial optimization"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Utku Umur Acikalin","url":"https://utkuumur.github.io/","email":"mailto:uuacikalin@gmail.com","jobTitle":"Computer Science Ph.D. candidate","affiliation":{"@type":"CollegeOrUniversity","name":"Cornell University"},"sameAs":["https://github.com/utkuumur","https://scholar.google.com/citations?user=acAG2w4AAAAJ&hl=en","https://www.linkedin.com/in/uuacikalin","https://orcid.org/0000-0002-0381-8831"],"knowsAbout":["AI for Science","Molecular machine learning","Mass spectrometry","Combinatorial optimization"]}</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -201,7 +208,7 @@ h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(42px,5.1vw,61
 <div class="hero-copy">
 <p class="eyebrow">Cornell Computer Science · Gomes Lab</p>
 <h1 id="intro-title">AI for molecular<br/>discovery.</h1>
-<p class="lead">I'm Utku, a fourth-year Ph.D. student at <strong>Cornell University</strong>, advised by <a class="inline-link" href="https://www.cs.cornell.edu/gomes/">Carla P. Gomes</a>.</p>
+<p class="lead">I'm Utku, a fourth-year Ph.D. candidate at <strong>Cornell University</strong>, advised by <a class="inline-link" href="https://www.cs.cornell.edu/gomes/">Carla P. Gomes</a>.</p>
 <p>I work on large-scale scientific problems where standard deep learning struggles, and build methods that use the structure of the problem instead of ignoring it: chemical rules, graph structure, and combinatorial search. My main focus is identifying unknown molecules from tandem mass spectra.</p>
 <p>Interpretability is central to this work. AIMe explains each predicted peak and its intensity with a mechanistic fragmentation pathway. GEMS links spectral evidence to specific atoms and bonds, and every step of its search is a valid molecule a chemist can inspect. I also want these methods to be usable by scientists without an AI background, which is why AIMe runs as a public search system over 105M molecules.</p>
 <p>I also work on language models and their applications in financial economics, learned combinatorial optimization, and efficient deep learning.</p>
@@ -235,20 +242,32 @@ h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(42px,5.1vw,61
 <p class="section-intro">My main research question is how to combine learned models with scientific constraints to recover molecular structure from incomplete experimental evidence.</p>
 <div class="research-grid">
 <article class="research-card primary">
+<figure class="project-figure">
+<a href="images/aime-fig1.jpg"><img alt="Overview figure of AIMe: PubChem structures and training spectra feed DeepMS2Reasoner, which fragments caffeine step by step into a predicted MS2 spectrum; below, MS2KOSMOS takes the spectrum of an unknown and returns similarity-ranked candidate structures." height="1095" loading="lazy" src="images/aime-fig1.jpg" width="1370"/></a>
+<figcaption>Overview of AIMe: training, in-silico fragmentation, and search over MS²KOSMOS. Fig. 1 of the <a href="https://doi.org/10.64898/2026.08.05.743095">preprint</a>, CC BY-ND 4.0. Click to enlarge.</figcaption>
+</figure>
+<div class="project-body">
 <p class="project-type">Molecular discovery · Neuro-symbolic AI</p>
 <h3>AIMe &amp; MS²KOSMOS</h3>
 <p class="project-summary">AIMe combines learned spectral prediction with chemically constrained fragmentation, reaching 0.83 cosine similarity on NIST vs. 0.75 for the strongest baseline. MS²KOSMOS makes the resulting molecular space searchable, with peak-level structural annotations and fragmentation-pathway explanations.</p>
 <p class="project-summary">I co-designed and implemented AIMe and co-developed its public interface. The collaborative study used the system to elucidate previously unreported microbiota-dependent polyamines, with validation by chemical synthesis.</p>
 <p class="project-status">Co-first author · bioRxiv 2026; under review at Nature</p>
 <div class="project-links"><a href="https://doi.org/10.64898/2026.08.05.743095">Read the preprint <span aria-hidden="true">↗</span></a><a href="https://www.cs.cornell.edu/gomes/udiscoverit/kosmos/search.html">Try the system <span aria-hidden="true">↗</span></a></div>
+</div>
 </article>
 <article class="research-card">
+<figure class="project-figure">
+<a href="images/gems-fig1.png"><img alt="Overview figure of GEMS in three panels: seed retrieval from an MS/MS spectrum with MIST and PubChem, fingerprint-guided editing where a learned policy scores bond edits and two edits turn a seed into the target molecule, and search and ranking across five seeds." height="909" loading="lazy" src="images/gems-fig1.png" width="1676"/></a>
+<figcaption>GEMS on one NPLIB1 query: seed retrieval, fingerprint-guided editing, search and ranking. Figure 1 of the <a href="https://arxiv.org/abs/2610.23617">preprint</a>. Click to enlarge.</figcaption>
+</figure>
+<div class="project-body">
 <p class="project-type">Molecular structure · Learned graph search</p>
 <h3>GEMS</h3>
 <p class="project-summary">GEMS treats known-formula structure elucidation as learned search over isomer graphs. Starting from database candidates, it refines complete structures through bond edits that preserve the molecular formula and every atom's valence, so it can reach molecules outside the database.</p>
 <p class="project-summary">A policy links fingerprints predicted from the spectrum by MIST to the candidate's atoms and bonds, and scores every valid edit in one forward pass. Shortest-path supervision allows pretraining on structures alone. With the true structure excluded from the starting set, GEMS reaches 30.2% Hit@1 on MassSpecGym and 29.6% on NPLIB1.</p>
 <p class="project-status">First author · arXiv 2026, under review at ICLR 2027 · earlier version: ICML 2026 workshops, GenBio spotlight and AI4Physics poster</p>
 <div class="project-links"><a href="https://arxiv.org/abs/2610.23617">Read the preprint <span aria-hidden="true">↗</span></a><a href="https://openreview.net/forum?id=Ic5qOZ6xur">Workshop paper <span aria-hidden="true">↗</span></a></div>
+</div>
 </article>
 </div>
 <div class="supporting-grid">
@@ -298,6 +317,6 @@ h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(42px,5.1vw,61
 </section>
 <section aria-labelledby="contact-title" class="contact-section" id="contact"><div><h2 id="contact-title">Research &amp; collaboration</h2><p>Interested in molecular machine learning, AI4Science, and language models.</p></div><a href="mailto:uuacikalin@gmail.com">uuacikalin@gmail.com <span aria-hidden="true">↗</span></a></section>
 </main>
-<footer class="site-footer"><div class="wrap footer-inner"><span>Utku Umur Acikalin · Cornell University · Ithaca, NY</span><span>Updated October 2026 · <a href="https://github.com/utkuumur">GitHub</a></span></div></footer>
+<footer class="site-footer"><div class="wrap footer-inner"><span>Utku Umur Acikalin · Cornell University · Ithaca, NY</span><span>Updated November 2026 · <a href="https://github.com/utkuumur">GitHub</a></span></div></footer>
 </body>
 </html>
